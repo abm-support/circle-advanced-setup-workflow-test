@@ -15,6 +15,7 @@ jobs:
           to: C
       - run: echo 'Hello world from module C! :3'
       - run: echo 'testing fork deps'
+      - run: echo 'not sure what i broke'
 workflows:
   module-c-workflow:
     jobs:
