@@ -14,7 +14,7 @@ jobs:
       - common-say-hello:
           to: C
       - run: echo 'Hello world from module C! :3'
-
+      - run: echo 'testing fork'
 workflows:
   module-c-workflow:
     jobs:
